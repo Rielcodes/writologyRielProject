@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.latest-article {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.image {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe99991773809b3eb0313_management-thumbnail-blog-writelogy-x-webflow-template-p-500.jpeg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.la-text {
+  font-size: large;
+}
+.article {
+  display: flex;
+  gap: 20px;
+}
+
+.texts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.texts h1 {
+  text-transform: uppercase;
+  color: rgb(176, 176, 176);
+}
+.texts h5 {
+  color: rgb(176, 176, 176);
+}
+
+.profile img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.ND {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#image-2 {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe96825e3ea16e4fbacb5_productivity-apps-thumbnail-blog-writelogy-x-webflow-template-p-500.jpeg);
+  
+}
+#image-3 {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe8525409f6f9c1c7ab22_avoid-distractions-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+
+}
+#image-4 {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe78a9617508689d8697b_ipad-apps-thumbnail-blog-writelogy-x-webflow-template-p-500.jpeg);
+  
+}
+#image-5 {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe4dc00fdd48ad3d67254_productivity-plan-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+  
+}
+.main-container {
+  display: flex;
+  gap: 50px;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.writology{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.w-texts {
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 300px;
+  border: 2px solid gray;
+  font-size: 20px;
+  background-color: white;
+  background-image: url(search_FILL0_wght400_GRAD0_opsz24.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.btns {
+  margin-top: 30px;
+  background-color: transparent;
+  border: 1px solid;
+}
+button {
+  height: 30px;
+  width: 100px;
+  margin-bottom: 40px;
+}
+button:nth-child(1) {
+  width: 60px;
+}
+button:nth-child(3) {
+  width: 70px;
+}
+.Limg {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abfe89ab6b229bab1ed420_management-software-featured-blog-writelogy-x-webflow-template-p-500.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.latext {
+  margin-bottom: 30px;
+}
+.pa-images {
+  display: flex;
+  gap: 20px;
+}
+.pa-text {
+  font-size: 30px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pa-image {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe3a09177383d10eae70a_collaboration-software-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+#pa-image2 {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe33779b3d5971674d153_project-management-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+  margin-top: 30px;
+}
+#pa-image3 {
+  background-image: url(https://assets.website-files.com/62abc23e594f83d9d66b136f/62abe1c991773849cceae17c_time-tracking-thumbnail-blog-writelogy-x-webflow-template--p-500.jpeg);
+  margin-top: 30px;
+}
+#patext-2 {
+  width: 250px;
+}
+#patext-3 {
+  width: 250px;
+}
+.articles {
+  margin-top: 30px;
+}
+.articles h2 {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+   .main-container{
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    
+   }
+   .article{
+    flex-direction: column;
+    
+   }
+   
+   .writology{
+    margin-left: ;
+   }
+   input{
+    width: 100%;
+   }
+   .Limg{
+    width: 100%;
+   }
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  .main-container{
+    flex-direction: column;
+     width: 95%;
+    margin: 0 auto;
+  }
+  .writology{
+    margin: ;
+  }
+  
+  .image{
+    width: ;
+  }
+  .article{
+    flex-direction: column;
+  }
+  input{
+    width: 100%;
+  }
+
+}
